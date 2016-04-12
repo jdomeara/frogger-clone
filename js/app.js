@@ -83,7 +83,7 @@ var allEnemies = [];
 for (var i = 1; i < 5; i++) {
     var enemy = new Enemy(-100, (i * 83) - 20);
     allEnemies.push(enemy);
-};
+}
 
 
 // This listens for key presses and sends the keys to your
